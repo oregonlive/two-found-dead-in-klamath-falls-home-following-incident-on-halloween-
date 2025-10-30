@@ -19,7 +19,7 @@ header {
   color: white;
   width: 100%;
   padding-top:1.7%;
-  padding-bottom: 1.7%;
+  padding-bottom: 2%;
 }
 
 .header-content {
@@ -225,4 +225,5 @@ font-size: 13px;
     line-height: 1.75;
   }
 }
+
 
