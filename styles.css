@@ -85,7 +85,7 @@ margin: 1rem auto 3rem;
 
 .article-container h1 {
 font-family: 'Georgia', serif;
-font-size: 2.4rem;
+font-size: 2.7rem;
 font-weight: 700;
 line-height: 1.2;
 margin-bottom: 0.5rem;
@@ -163,4 +163,65 @@ gap: 8px;
 .footer-text {
 color: #777;
 font-size: 13px;
+}
+
+/* === MOBILE VIEWPORT === */
+@media (max-width: 768px) {
+
+  /* Make header taller and logo left-aligned */
+  header {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .header-content {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  /* Move logo to the left */
+  .header-left {
+    position: static;
+    transform: none;
+  }
+
+  .logo img {
+    height: 55px;
+  }
+
+  /* Keep buttons to the right but spaced */
+  .header-right {
+    gap: 0.5rem;
+  }
+
+  /* Shrink title font */
+  .article-container h1 {
+    font-size: 1.8rem;
+    line-height: 1.25;
+  }
+
+  /* Reduce white space on sides */
+  .article-container {
+    width: 90%;
+  }
+
+  /* Add more bottom padding between paragraphs */
+  .article-body p {
+    padding-bottom: 5%;
+  }
+
+  /* Slightly enlarge footer logo for balance on mobile */
+  .footer-logo img {
+    height: 55px;
+  }
+
+  /* Add a bit more breathing room for footer text */
+  .footer {
+    padding: 30px 0;
+  }
+
+  /* Optional tweak: increase line height slightly for readability */
+  body {
+    line-height: 1.75;
+  }
 }
