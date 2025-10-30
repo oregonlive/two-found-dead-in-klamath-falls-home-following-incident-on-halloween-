@@ -1,0 +1,166 @@
+/* === General Reset === */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Georgia', serif;
+background-color: #fff;
+color: #111;
+line-height: 1.6;
+}
+
+
+header {
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  padding-top:1.7%;
+  padding-bottom: 1.7%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 2rem; /* left/right padding only */
+}
+
+/* Centered logo */
+.header-left {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  height: 55px; /* slightly larger for better proportion */
+  width: auto;
+}
+
+/* Right side buttons */
+.header-right {
+  margin-left: auto;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.header-btn {
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  color: #000;
+}
+
+.header-btn:hover {
+  background-color: #e6b800;
+}
+
+
+/* === Section Titles === */
+section.category {
+color: #003c96;
+text-transform: uppercase;
+font-weight: bold;
+margin: 2rem auto 0;
+width: 60%;
+font-size: 0.9rem;
+}
+
+
+/* === Article === */
+.article-container {
+width: 60%;
+margin: 1rem auto 3rem;
+}
+
+
+.article-container h1 {
+font-family: 'Georgia', serif;
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 0.5rem;
+}
+
+
+.article-meta {
+color: #666;
+font-size: 0.9rem;
+margin-bottom: 1.5rem;
+}
+
+
+.image-placeholder {
+width: 100%;
+height: 350px;
+background-color: #e0e0e0;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #666;
+font-style: italic;
+margin-bottom: 1.5rem;
+}
+
+
+.article-container p {
+}
+
+.article-body p {
+    padding-bottom:1%;
+}
+
+.logo img {
+  height: 65px;
+  width: auto;
+}
+
+.article-image {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.article-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.footer {
+width: 100%;
+border-top: 1px solid #ddd;
+background: #fafafa;
+padding: 20px 0;
+margin-top: 60px;
+}
+
+.footer-logo img {
+    height: 65px;
+    width: auto;
+    padding-bottom:2%;
+}
+
+.footer-content {
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 8px;
+}
+
+.footer-text {
+color: #777;
+font-size: 13px;
+}
