@@ -166,7 +166,7 @@ font-size: 13px;
 }
 
 /* === MOBILE VIEWPORT === */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
   /* Make header taller and logo left-aligned */
   header {
@@ -225,3 +225,4 @@ font-size: 13px;
     line-height: 1.75;
   }
 }
+
